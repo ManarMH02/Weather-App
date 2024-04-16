@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+        <div class="weather">
+            <div class="weather-icon"></div>
+            <h1 class="temperature">--</h1>
+            <h2 class="city-name">City Name</h2>
+            <div class="details">
+                <div class="col">
+                    <i class="humidity fa-solid fa-water"></i>
+                    <div>
+                        <p class="humidity">--</p>
+                        <p style="margin-top: -4px;"></pstyle>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <i class="wind fa-solid fa-wind"></i>
+                    <div>
+                        <p class="wind">--</p>
+                        <p style="margin-top: -4px;">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
