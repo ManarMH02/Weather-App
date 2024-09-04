@@ -8,8 +8,6 @@ A simple and practical weather application that I built as part of my coding pra
 
 - **User-Friendly Design:** WeatherApp features a clean and intuitive interface, with HTML providing structure, CSS adding style, and JavaScript handling data fetching and display.
 
-_Note: This application is not meant to be responsive at this time._
-
 ## Why WeatherApp?
 
 - **Skill Enhancement**: Building WeatherApp allowed me to practice HTML, CSS, and JavaScript, enhancing my skills in web development and API integration.
